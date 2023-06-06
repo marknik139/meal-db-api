@@ -11,10 +11,10 @@ import { Recipe } from './pages/Recipe';
 function App() {
   return (
     <>
-    <Router>
+    <Router basename='/meal-db-api'>
       <Header/>
         <main className='container content'>
-            <Routes basename='/meal-db-api'>
+            <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="/about" element={<About/>} />
               <Route path="/category/:name" element={<Category/>} />

@@ -1,6 +1,6 @@
 {
   "name": "recipes",
-  "homepage": "https://marknik139.github.io/meal-db-api",
+  "homepage": "https://marknik139.github.io/meal-db-api/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
